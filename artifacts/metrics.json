@@ -1,0 +1,33 @@
+{
+  "model_terbaik": "KNN",
+  "hasil": {
+    "Random Forest": {
+      "cv_akurasi": 0.9900317057704502,
+      "cv_akurasi_std": 0.00047857862432753657,
+      "cv_f1_macro": 0.9862981972580721,
+      "uji_akurasi": 0.9903614457831326,
+      "uji_f1_macro": 0.9866810162029613
+    },
+    "KNN": {
+      "cv_akurasi": 0.9906658211794547,
+      "cv_akurasi_std": 0.000644680534033687,
+      "cv_f1_macro": 0.9872843863603951,
+      "uji_akurasi": 0.9923906150919467,
+      "uji_f1_macro": 0.9893363523824503
+    }
+  },
+  "data": {
+    "baris_awal": 120999,
+    "baris_unik": 39425,
+    "duplikat_dibuang": 81574
+  },
+  "cocok_dengan_who": 0.9951299936588459,
+  "zona_abu": {
+    "tau": 0.8,
+    "ditandai": 0.037793278376664574,
+    "akurasi_dijawab": 1.0,
+    "kesalahan_tertangkap": 1.0
+  },
+  "baris_z_tak_wajar": 938,
+  "versi_sklearn": "1.9.0"
+}
